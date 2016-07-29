@@ -1,0 +1,178 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  padding: 0 20px;
+}
+
+p {
+  line-height: 2rem;
+  color: #37474f;
+}
+
+.button-collapse {
+  color: #000000;
+}
+
+.parallax-container {
+  min-height: 625px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+  color: #90a4ae;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.nav-about-me-name {
+  color: #444;
+  display: block;
+  font-size: 1.5rem;
+  height: 64px;
+  line-height: 64px;
+  padding: 0 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  color: #0d47a1;
+}
+
+.nav-about-me-location {
+  color: #444;
+  display: block;
+  font-size: 1rem;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  color: #b71c1c;
+}
+
+.nav-about-me-description {
+  color: #444;
+  display: block;
+  font-size: 0.9rem;
+  padding: 0 30px;
+  color: #0d47a1;
+}
+
+.nav-link li {
+  color: #444;
+  display: block;
+  font-size: 1rem;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 30px;
+}
+
+.nav-link a:hover {
+  background-color: transparent;
+}
+
+.social-icon {
+  display: inline;
+  padding: 0 25px;
+}
+
+.social-icon a {
+  color: #263238;
+}
+
+.social-icon a:hover {
+  color: #78909c;
+}
+
+.footer-text {
+  color: #cfd8dc;
+  font-weight: bold;
+}
+#first-para-name{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#first-para-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#skills {
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#projects {
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#project-icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#horizon {
+  margin: 0;
+  padding: 1.5px;
+  border: 0;
+}
+
+#about {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#about-description {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#contact {
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.team-member {
+  color: #000000;
+}
