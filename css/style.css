@@ -47,9 +47,6 @@ p {
   }
 }
 
-.icon-block {
-  padding: 0 15px;
-}
 .icon-block .material-icons {
   font-size: inherit;
   color: #90a4ae;
@@ -115,7 +112,7 @@ footer.page-footer {
 
 .social-icon {
   display: inline;
-  padding: 0 25px;
+  margin: 15px;
 }
 
 .social-icon a {
@@ -148,7 +145,7 @@ footer.page-footer {
 
 #skill-text {
   font-size: 1.2rem;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 #projects {
